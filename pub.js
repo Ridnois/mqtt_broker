@@ -7,6 +7,7 @@ const message = "Yeah";
 
 client.on("connect", () => {
 	console.log(`Client connected!`);
+	
 	client.end();
 });
 
